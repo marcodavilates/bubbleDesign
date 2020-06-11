@@ -64,6 +64,7 @@ body{
 .main-nav{
     list-style: none;
     float: right;
+    display: block;
     margin-top: 30px;
 }
 
@@ -87,7 +88,7 @@ body{
 }
 
 .logo{
-    height: 100px;
+    height: 90px;
     width: auto;
     float: left;
     margin: 10px 0;
@@ -137,6 +138,7 @@ body h2::after{
 
 .icons-big{
     font-size: 250%;
+    vertical-align: middle;
 }
 
 .icons-small{
@@ -216,7 +218,7 @@ header{
     left: 50%;
     height: auto;
     width: 70%;
-    background-color: rgba(255, 255, 255, 0.7); 
+    background-color: rgba(255, 255, 255, 0.9); 
     padding: 5% 1%;
 }
 
@@ -441,7 +443,6 @@ body blockquote{
 }
 
 .description-plan{
-    font-size: 85%;
     text-align: left;
     margin-left: 12px;
     padding-bottom: 25px;
@@ -458,7 +459,7 @@ body blockquote{
 
 .body-plan li{
     padding: 4px 4px;   
-    font-size: 90%;
+    font-size: 95%;
 }
 
 .body-plan li:last-child{
