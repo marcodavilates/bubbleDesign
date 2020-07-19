@@ -13,6 +13,8 @@
     }
 
     .cliente-rex:last-child{padding-bottom: 0;}
+
+    #localizacion{display: block;}
     
 }    
 /* For small tablets to big tablets  */
